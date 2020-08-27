@@ -18,13 +18,13 @@ future.</p>
 
 The structure of the notebook is as follows:
 
-● Requirement.txt - which python packages are needed to run the code
-● Main.py - contains all the necessary classes and functions from other files and
-automates the process of pre-processing, model training, and model prediction.
-● Data.py - contains all functions and classes you write to do the pre-processing
-● Model.py - contains all functions and classes you write to generate your three
-models
-● notebooks/ - a folder that contains jupyter notebooks used to develop the
-code 
-● Util.py - Contains the code for the PCA analysis
+<p>● Requirement.txt - which python packages are needed to run the code</p>
+<p>● Main.py - contains all the necessary classes and functions from other files and
+automates the process of pre-processing, model training, and model prediction.</p>
+<p>● Data.py - contains all functions and classes you write to do the pre-processing</p>
+<p>● Model.py - contains all functions and classes you write to generate your three
+models</p>
+<p>● notebooks/ - a folder that contains jupyter notebooks used to develop the
+code</p> 
+<p>● Util.py - Contains the code for the PCA analysis</p>
 <p>The files need to be in the same folder for smooth running </p>
