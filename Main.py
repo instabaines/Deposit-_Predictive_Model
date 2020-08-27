@@ -25,7 +25,7 @@ def model():
     smote = SMOTE(sampling_strategy='minority')
     X_sm, y_sm = smote.fit_resample(reduced_data.drop(['y'],axis=1), reduced_data.y)
     Xf_train,Xf_test,yf_train,yf_test=train_test_split(X_sm,y_sm,test_size=0.1,random_state=1234,shuffle=True)
-    model_mlp=MLPClassifier()
+    model_mlp=MultiLayerClassifier()
     model_xgb=XGBClassifier()
     model_logreg=LogRegClassifier()
     model_mlp.fit(Xf_train,yf_train)

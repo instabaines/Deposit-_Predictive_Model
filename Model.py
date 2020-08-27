@@ -52,7 +52,7 @@ class LogRegClassifier(BaseEstimator, ClassifierMixin):
         # Create hyperparameter options
         hyperparameters = dict(C=C, penalty=penalty)
         clf = GridSearchCV(logistic, hyperparameters, cv=stratfold, verbose=0,scoring='f1')
-        self.model = clf.fit(X_train, y_train)
+        self.model = clf.fit(X, y)
         return self
     
     def predict(self, X):
@@ -62,7 +62,7 @@ class LogRegClassifier(BaseEstimator, ClassifierMixin):
         score=self.model.score(X,y)
         return score
         
-class MLPClassifier(BaseEstimator, ClassifierMixin):
+class MultiLayerClassifier(BaseEstimator, ClassifierMixin):
     def __init__(self):
         pass
     
@@ -72,7 +72,7 @@ class MLPClassifier(BaseEstimator, ClassifierMixin):
                       'alpha': 10.0 ** -np.arange(1, 10), 'hidden_layer_sizes':np.arange(10, 15), 
                       'random_state':[0,1,2,3,4,5,6,7,8,9]}
         clf = RandomizedSearchCV(MLPClassifier(), parameters, cv=stratfold,n_jobs=-1,scoring='f1')
-        self.model = clf.fit(X_train, y_train)
+        self.model = clf.fit(X, y)
         return self
     
     def predict(self, X):
