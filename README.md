@@ -12,3 +12,19 @@ customers profiles of those who have to subscribe to term deposits and the ones 
 did not subscribe to a term deposit. The goal is to to come up with a robust predictive model that would help
 identify customers who would or would not subscribe to their term deposit in the
 future.</p>
+<p>The algorithms employed in this study are divided intow two groups</p>
+<p>1. Preprocessing (PCA, MinMaxScaler,imblearn)</p>
+<p>2.Classification (XGBoost,LogisticRegression and MLPClassifier)</p>
+
+The structure of the notebook is as follows:
+
+● Requirement.txt - which python packages are needed to run the code
+● Main.py - contains all the necessary classes and functions from other files and
+automates the process of pre-processing, model training, and model prediction.
+● Data.py - contains all functions and classes you write to do the pre-processing
+● Model.py - contains all functions and classes you write to generate your three
+models
+● notebooks/ - a folder that contains jupyter notebooks used to develop the
+code 
+● Util.py - Contains the code for the PCA analysis
+<p>The files need to be in the same folder for smooth running </p>
