@@ -16,7 +16,7 @@ future.</p>
 <p>1. Preprocessing (PCA, MinMaxScaler,imblearn)</p>
 <p>2.Classification (XGBoost,LogisticRegression and MLPClassifier)</p>
 
-The structure of the notebook is as follows:
+The structure of this repo is as follows:
 
 <p>● Requirement.txt - which python packages are needed to run the code</p>
 <p>● Main.py - contains all the necessary classes and functions from other files and
