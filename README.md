@@ -28,3 +28,11 @@ models</p>
 code</p> 
 <p>● Util.py - Contains the code for the PCA analysis</p>
 <p>The files need to be in the same folder for smooth running </p>
+
+<h2>Prerequisites</h2>
+<p>You'll need:</p>
+<p>Python 3.6</p>
+<p>pip</p>
+<p>To install the dependencies,</p>
+
+<p>pip install -r requirements.txt`</p>
