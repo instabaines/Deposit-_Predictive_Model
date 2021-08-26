@@ -19,6 +19,8 @@ future.</p>
 The structure of this repo is as follows:
 
 <p>● Requirement.txt - which python packages are needed to run the code</p>
+<p>● /Data contais the data used for modeling</p>
+<p>● /Scripts contain the following files </p>
 <p>● Main.py - contains all the necessary classes and functions from other files and
 automates the process of pre-processing, model training, and model prediction.</p>
 <p>● Data.py - contains all functions and classes you write to do the pre-processing</p>
